@@ -162,13 +162,13 @@
 
 <script>
 import { email, required } from "vuelidate/lib/validators"
-import { useVuelidate } from "@vuelidate/core"
+// import { useVuelidate } from "@vuelidate/core"
 import { SEND_CONTACT } from "~/utils/storeActions"
 export default {
   name: "ContactUsForm",
-  setup() {
-    return { v$: useVuelidate() }
-  },
+  // setup() {
+  //   return { v$: useVuelidate() }
+  // },
   data() {
     return {
       firstName: "",

@@ -37,7 +37,7 @@
             ]"
             @click="active = job"
           >
-            <div v-if="job?.labels" class="w-full">
+            <div v-if="job.labels && job.labels.length > 0" class="w-full">
               <div
                 v-for="label in job?.labels"
                 :key="label.id"
@@ -56,6 +56,7 @@
             </div>
             <div class="w-full flex justify-between flex-wrap">
               <div
+                v-if="job.skills && job.skills.length > 0"
                 class="flex border border-solid border-border rounded-lg my-1"
               >
                 <div
@@ -119,7 +120,7 @@ export default {
       return this.$i18n.locale === "ar"
     },
   },
-  mounted() {
+  created() {
     this.filteredJobs = this.jobs
     this.allJobs = this.jobs
   },
@@ -128,8 +129,8 @@ export default {
       if (this.allJobs) {
         const searchedJobs = this.allJobs?.filter(
           (job) =>
-            job?.title?.toLowerCase().includes(this.searchText.toLowerCase()) ||
-            job?.skills?.find((skill) =>
+            job.title.toLowerCase().includes(this.searchText.toLowerCase()) ||
+            job.skills.find((skill) =>
               skill.title.toLowerCase().includes(this.searchText.toLowerCase())
             )
         )

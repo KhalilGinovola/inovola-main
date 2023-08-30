@@ -5,7 +5,7 @@
     </h2>
     <div class="flex flex-wrap">
       <div
-        v-for="relatedBlog in blog.relatedBlogs"
+        v-for="relatedBlog in blog?.relatedBlogs"
         :key="relatedBlog.id"
         class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 pe-8"
       >

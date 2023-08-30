@@ -21,7 +21,7 @@
         </div>
         <div class="flex flex-wrap">
           <div
-            v-for="item in devTeam.digitalProcess"
+            v-for="item in devTeam?.digitalProcess"
             :key="item.id"
             class="w-full md:w-1/2 xl:w-1/3 md:pe-7 h-full"
           >

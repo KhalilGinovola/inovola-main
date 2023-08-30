@@ -20,7 +20,7 @@
       <div>
         <div class="w-full flex justify-between flex-wrap items-center">
           <div
-            v-if="jobs[jobId]?.skills"
+            v-if="jobs[jobId].skills && jobs[jobId].skills.length > 0"
             class="flex border border-solid border-border rounded-lg my-1"
           >
             <div
@@ -38,11 +38,11 @@
                 },
               ]"
             >
-              {{ skill.title }}
+              {{ skill?.title }}
             </div>
           </div>
 
-          <div v-if="jobs[jobId]?.labels">
+          <div v-if="jobs[jobId].labels && jobs[jobId].labels.length > 0">
             <div
               v-for="label in jobs[jobId]?.labels"
               :key="label.id"
@@ -50,7 +50,7 @@
               :style="`background-color:${label.bgColor};color:${label.color}`"
             >
               <span class="font-medium text-xs leading-6">
-                {{ label.title }}
+                {{ label?.title }}
               </span>
             </div>
           </div>

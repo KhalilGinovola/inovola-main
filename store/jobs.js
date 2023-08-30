@@ -26,10 +26,15 @@ export default {
   actions: {
     [GET_JOBS]: ({ commit, state }) => {
       return new Promise((resolve, reject) => {
-        $axios.$get(`get-all-jobs`).then((response) => {
-          commit(SET_JOBS, response.data)
-          resolve(response.data)
-        })
+        $axios
+          .$get(`get-all-jobs`)
+          .then((response) => {
+            commit(SET_JOBS, response.data)
+            resolve(response.data)
+          })
+          .catch((error) => {
+            reject(error)
+          })
       })
     },
   },

@@ -89,25 +89,35 @@ export default {
   actions: {
     [SEND_CONTACT]: ({ commit }, data) => {
       return new Promise((resolve, reject) => {
-        $axios.$post("contact-us", data).then((response) => {
-          commit(COMMON_SUCCESS, {
-            type: "post",
-            message: "Message set successfully",
-          })
+        $axios
+          .$post("contact-us", data)
+          .then((response) => {
+            commit(COMMON_SUCCESS, {
+              type: "post",
+              message: "Message set successfully",
+            })
 
-          setTimeout(() => {
-            commit(CLEAR_STATUS)
-          }, 3000)
-          resolve(response.data)
-        })
+            setTimeout(() => {
+              commit(CLEAR_STATUS)
+            }, 3000)
+            resolve(response.data)
+          })
+          .catch((error) => {
+            reject(error)
+          })
       })
     },
     [GET_SEO]: ({ commit }) => {
       return new Promise((resolve, reject) => {
-        $axios.$get("get-setting").then((response) => {
-          commit(SET_SEO, response.data)
-          resolve(response.data)
-        })
+        $axios
+          .$get("get-setting")
+          .then((response) => {
+            commit(SET_SEO, response.data)
+            resolve(response.data)
+          })
+          .catch((error) => {
+            reject(error)
+          })
       })
     },
   },

@@ -16,8 +16,8 @@ export default {
   mutations: {
     [SET_JOBS]: (state, jobs) => {
       for (const job of jobs) {
-        for (const item in job.labels) {
-          job.labels[item].bgColor = HexaToRGBA(job.labels[item].color, 0.2)
+        for (const item in job?.labels) {
+          job.labels[item].bgColor = HexaToRGBA(job?.labels[item]?.color, 0.2)
         }
       }
       state.jobs = jobs

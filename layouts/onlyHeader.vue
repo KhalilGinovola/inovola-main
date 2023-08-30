@@ -12,7 +12,10 @@ import { mapActions, mapState } from "vuex"
 import { handleLanguageChange } from "@/utils/langaugeChanger"
 import SuccessFailMessage from "~/components/shared/SuccessFailMessage.vue"
 import AppHeader from "~/components/shared/Header.vue"
-import { GET_SEO, GET_JOBS } from "~/utils/storeActions"
+import {
+  GET_SEO,
+  // GET_JOBS
+} from "~/utils/storeActions"
 
 export default {
   name: "OnlyHeaderLayout",
@@ -20,9 +23,9 @@ export default {
     SuccessFailMessage,
     AppHeader,
   },
-  async fetch() {
-    await this.$store.dispatch("jobs/" + GET_JOBS)
-  },
+  // async fetch() {
+  //   await this.$store.dispatch("jobs/" + GET_JOBS)
+  // },
   head() {
     return {
       bodyAttrs: {

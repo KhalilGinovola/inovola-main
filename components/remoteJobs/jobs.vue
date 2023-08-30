@@ -25,7 +25,7 @@
         class="remote-job-list max-h-[54vh] 2xl:max-h-[70vh] overflow-y-scroll"
       >
         <nuxt-link
-          v-for="job in filterdJobs"
+          v-for="job in filteredJobs"
           :key="job.id"
           :to="localePath(`/remote-jobs/${job.id}`)"
           class="no-underline"
@@ -37,21 +37,21 @@
             ]"
             @click="active = job"
           >
-            <div class="w-full">
+            <div v-if="job?.labels" class="w-full">
               <div
-                v-for="label in job.labels"
+                v-for="label in job?.labels"
                 :key="label.id"
                 class="px-4 py-1 rounded-lg m-1 cursor-default inline-block"
                 :style="`background-color:${label.bgColor};color:${label.color}`"
               >
                 <span class="font-medium text-xs leading-6">
-                  {{ label.title }}
+                  {{ label?.title }}
                 </span>
               </div>
             </div>
             <div class="w-full">
               <h1 class="text-base font-semibold leading-8 text-text-8">
-                {{ job.title }}
+                {{ job?.title }}
               </h1>
             </div>
             <div class="w-full flex justify-between flex-wrap">
@@ -59,21 +59,21 @@
                 class="flex border border-solid border-border rounded-lg my-1"
               >
                 <div
-                  v-for="(skill, skillsIndex) in job.skills"
+                  v-for="(skill, skillsIndex) in job?.skills"
                   :key="skillsIndex"
                   :class="[
                     'border-y-0 h-full px-4 py-2 font-medium text-xs leading-6 text-text-9 cursor-default',
                     {
                       'border-l-0 border-r-2 border-solid border-border':
-                        skillsIndex < job.skills.length - 1 && !isRTL,
+                        skillsIndex < job?.skills?.length - 1 && !isRTL,
                     },
                     {
                       'border-r-0 border-l-2 border-solid border-border':
-                        skillsIndex < job.skills.length - 1 && isRTL,
+                        skillsIndex < job?.skills?.length - 1 && isRTL,
                     },
                   ]"
                 >
-                  {{ skill.title }}
+                  {{ skill?.title }}
                 </div>
               </div>
               <img
@@ -106,7 +106,7 @@ export default {
   data() {
     return {
       searchText: "",
-      filterdJobs: [],
+      filteredJobs: [],
       allJobs: [],
       active: false,
     }
@@ -120,19 +120,21 @@ export default {
     },
   },
   mounted() {
-    this.filterdJobs = this.jobs
+    this.filteredJobs = this.jobs
     this.allJobs = this.jobs
   },
   methods: {
     searchForJobs() {
-      const shearchedJobs = this.allJobs.filter(
-        (job) =>
-          job.title.toLowerCase().includes(this.searchText.toLowerCase()) ||
-          job.skills.find((skill) =>
-            skill.title.toLowerCase().includes(this.searchText.toLowerCase())
-          )
-      )
-      this.filterdJobs = shearchedJobs
+      if (this.allJobs) {
+        const searchedJobs = this.allJobs?.filter(
+          (job) =>
+            job?.title?.toLowerCase().includes(this.searchText.toLowerCase()) ||
+            job?.skills?.find((skill) =>
+              skill.title.toLowerCase().includes(this.searchText.toLowerCase())
+            )
+        )
+        this.filteredJobs = searchedJobs
+      }
     },
   },
 }

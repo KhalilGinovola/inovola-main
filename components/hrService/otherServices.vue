@@ -19,7 +19,7 @@
         </p>
       </div>
     </div>
-    <div class="flex flex-col flex-wrap md:flex-row">
+    <div v-if="services.length" class="flex flex-col flex-wrap md:flex-row">
       <div
         v-for="(service, index) in services"
         :key="index"

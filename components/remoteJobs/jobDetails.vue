@@ -18,43 +18,44 @@
         <h3
           class="font-bold text-xl sm:text-2xl leading-8 sm:leading-[2.5rem] text-text-8 mt-0 mb-5"
         >
-          {{ jobs[jobId].title }}
+          {{ jobs[jobId]?.title }}
         </h3>
         <div>
           <div
             class="w-full flex justify-between flex-wrap items-center mt-0 pt-0"
           >
             <div
+              v-if="jobs[jobId]?.skills"
               class="flex border border-solid border-border rounded-lg mb-1 mt-0 pt-0"
             >
               <div
-                v-for="(skill, skillsIndex) in jobs[jobId].skills"
+                v-for="(skill, skillsIndex) in jobs[jobId]?.skills"
                 :key="skillsIndex"
                 :class="[
                   'border-y-0 h-full px-4 py-2 font-medium text-xs leading-6 text-text-9 cursor-default',
                   {
                     'border-l-0 border-r-2 border-solid border-border':
-                      skillsIndex < jobs[jobId].skills.length - 1 && !isRTL,
+                      skillsIndex < jobs[jobId]?.skills?.length - 1 && !isRTL,
                   },
                   {
                     'border-r-0 border-l-2 border-solid border-border':
-                      skillsIndex < jobs[jobId].skills.length - 1 && isRTL,
+                      skillsIndex < jobs[jobId]?.skills?.length - 1 && isRTL,
                   },
                 ]"
               >
-                {{ skill.title }}
+                {{ skill?.title }}
               </div>
             </div>
 
             <div>
               <div
-                v-for="label in jobs[jobId].labels"
+                v-for="label in jobs[jobId]?.labels"
                 :key="label.id"
                 class="px-4 py-1 rounded-lg m-1 cursor-default inline-block"
                 :style="`background-color:${label.bgColor};color:${label.color}`"
               >
                 <span class="font-medium text-xs leading-6">
-                  {{ label.title }}
+                  {{ label?.title }}
                 </span>
               </div>
             </div>
@@ -72,10 +73,10 @@
               class="text-lg font-semibold sm:text-xl text-text-8 leading-8 mt-0 mb-8"
             >
               {{ $t("remoteJobs.updated") }}
-              {{ $moment(jobs[jobId].created_at).fromNow() }}
+              {{ $moment(jobs[jobId]?.created_at).fromNow() }}
               <span class="mx-1">-</span>
               <span
-                >{{ jobs[jobId].type }} {{ $t("remoteJobs.Position") }}
+                >{{ jobs[jobId]?.type }} {{ $t("remoteJobs.Position") }}
               </span>
             </h3>
             <hr class="max-w-[30.75rem] text-left m-0 text-border" />
@@ -83,16 +84,16 @@
             <hr class="max-w-[30.75rem] text-left m-0 text-border" />
             <div
               class="dynamic-job-dec pt-6 pb-8"
-              v-html="jobs[jobId].description"
+              v-html="jobs[jobId]?.description"
             ></div>
             <hr class="max-w-[30.75rem] text-left m-0 text-border" />
-            <SocialMediaSharing :job-head="jobs[jobId].title" />
+            <SocialMediaSharing :job-head="jobs[jobId]?.title" />
             <hr class="max-w-[30.75rem] text-left m-0 text-border" />
             <GlassdoorSection />
           </section>
           <ApplyNow
             :mobile-size="mobileSize"
-            :job-src="jobs[jobId].apply_link"
+            :job-src="jobs[jobId]?.apply_link"
           />
         </div>
       </div>

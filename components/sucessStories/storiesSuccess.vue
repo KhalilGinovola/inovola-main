@@ -4,7 +4,7 @@
       <div class="flex flex-wrap justify-center">
         <div
           v-for="(story, index) in successStories"
-          :key="story.id"
+          :key="`${story.id} - ${index}`"
           class="w-full md:w-1/2 break-inside-avoid border p-3 mb-11 py-0 sm:mb-12 px-[0.9375rem]"
           @mouseenter="toggle(index)"
           @mouseleave="toggleOut(index)"

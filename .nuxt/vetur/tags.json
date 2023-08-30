@@ -1,0 +1,278 @@
+{
+  "BlogPageContent": {
+    "description": "Auto imported from components/blogPage/content.vue"
+  },
+  "BlogPageHeading": {
+    "description": "Auto imported from components/blogPage/heading.vue"
+  },
+  "BlogPageRelatedBlogs": {
+    "description": "Auto imported from components/blogPage/relatedBlogs.vue"
+  },
+  "BlogPageSocialMediaSharing": {
+    "description": "Auto imported from components/blogPage/socialMediaSharing.vue"
+  },
+  "BlogsBlog": {
+    "description": "Auto imported from components/blogs/blog.vue"
+  },
+  "BlogsContent": {
+    "description": "Auto imported from components/blogs/content.vue"
+  },
+  "BlogsFirstBlog": {
+    "description": "Auto imported from components/blogs/FirstBlog.vue"
+  },
+  "ContactUsCalender": {
+    "description": "Auto imported from components/contactUs/calender.vue"
+  },
+  "ContactUsContent": {
+    "description": "Auto imported from components/contactUs/content.vue"
+  },
+  "ContactUsEgyptInfo": {
+    "description": "Auto imported from components/contactUs/egyptInfo.vue"
+  },
+  "ContactUsEgyptMap": {
+    "description": "Auto imported from components/contactUs/egyptMap.vue"
+  },
+  "ContactUsEmirateInfo": {
+    "description": "Auto imported from components/contactUs/emirateInfo.vue"
+  },
+  "ContactUsEmirateMap": {
+    "description": "Auto imported from components/contactUs/emirateMap.vue"
+  },
+  "ContactUsEnglandInfo": {
+    "description": "Auto imported from components/contactUs/englandInfo.vue"
+  },
+  "ContactUsEnglandMap": {
+    "description": "Auto imported from components/contactUs/englandMap.vue"
+  },
+  "ContactUsForm": {
+    "description": "Auto imported from components/contactUs/form.vue"
+  },
+  "ContactUsInfo": {
+    "description": "Auto imported from components/contactUs/info.vue"
+  },
+  "ContactUsLocations": {
+    "description": "Auto imported from components/contactUs/locations.vue"
+  },
+  "DevTeamServiceBackendDevelopment": {
+    "description": "Auto imported from components/devTeamService/backendDevelopment.vue"
+  },
+  "DevTeamServiceContent": {
+    "description": "Auto imported from components/devTeamService/content.vue"
+  },
+  "DevTeamServiceDevelopmentPakages": {
+    "description": "Auto imported from components/devTeamService/developmentPakages.vue"
+  },
+  "DevTeamServiceECommerce": {
+    "description": "Auto imported from components/devTeamService/E-Commerce.vue"
+  },
+  "DevTeamServiceFrontendDevelopment": {
+    "description": "Auto imported from components/devTeamService/frontendDevelopment.vue"
+  },
+  "DevTeamServiceMobileDevelopment": {
+    "description": "Auto imported from components/devTeamService/mobileDevelopment.vue"
+  },
+  "DevTeamServiceOtherServices": {
+    "description": "Auto imported from components/devTeamService/otherServices.vue"
+  },
+  "DevTeamServiceOurProcess": {
+    "description": "Auto imported from components/devTeamService/ourProcess.vue"
+  },
+  "DevTeamServiceScalingSimple": {
+    "description": "Auto imported from components/devTeamService/scalingSimple.vue"
+  },
+  "DevTeamServiceHeader": {
+    "description": "Auto imported from components/devTeamService/serviceHeader.vue"
+  },
+  "DigitalTransformationContent": {
+    "description": "Auto imported from components/digitalTransformation/content.vue"
+  },
+  "DigitalTransformationHeading": {
+    "description": "Auto imported from components/digitalTransformation/heading.vue"
+  },
+  "DigitalTransformationModernSolution": {
+    "description": "Auto imported from components/digitalTransformation/modernSolution.vue"
+  },
+  "DigitalTransformationOtherServices": {
+    "description": "Auto imported from components/digitalTransformation/otherServices.vue"
+  },
+  "DigitalTransformationOurProcess": {
+    "description": "Auto imported from components/digitalTransformation/ourProcess.vue"
+  },
+  "ForCompaniesClientReview": {
+    "description": "Auto imported from components/forCompanies/clientReview.vue"
+  },
+  "ForCompaniesContent": {
+    "description": "Auto imported from components/forCompanies/content.vue"
+  },
+  "ForCompaniesCustomerReview": {
+    "description": "Auto imported from components/forCompanies/customerReview.vue"
+  },
+  "ForCompaniesEnergizingCommunity": {
+    "description": "Auto imported from components/forCompanies/energizingCommunity.vue"
+  },
+  "ForCompaniesLanding": {
+    "description": "Auto imported from components/forCompanies/landing.vue"
+  },
+  "ForCompaniesMarketingAgency": {
+    "description": "Auto imported from components/forCompanies/marketingAgency.vue"
+  },
+  "ForCompaniesMission": {
+    "description": "Auto imported from components/forCompanies/mission.vue"
+  },
+  "ForCompaniesMissionVision": {
+    "description": "Auto imported from components/forCompanies/missionVision.vue"
+  },
+  "ForCompaniesOurServices": {
+    "description": "Auto imported from components/forCompanies/ourServices.vue"
+  },
+  "ForCompaniesReviewSlider": {
+    "description": "Auto imported from components/forCompanies/reviewSlider.vue"
+  },
+  "ForCompaniesVision": {
+    "description": "Auto imported from components/forCompanies/vision.vue"
+  },
+  "ForDevelopersCommunityDevelopers": {
+    "description": "Auto imported from components/forDevelopers/communityDevelopers.vue"
+  },
+  "ForDevelopersContent": {
+    "description": "Auto imported from components/forDevelopers/content.vue"
+  },
+  "ForDevelopersDeveloperReviews": {
+    "description": "Auto imported from components/forDevelopers/developerReviews.vue"
+  },
+  "ForDevelopersReviews": {
+    "description": "Auto imported from components/forDevelopers/developersReviews.vue"
+  },
+  "ForDevelopersJobInfo": {
+    "description": "Auto imported from components/forDevelopers/jobInfo.vue"
+  },
+  "ForDevelopersJobOffers": {
+    "description": "Auto imported from components/forDevelopers/jobOffers.vue"
+  },
+  "ForDevelopersJoinUs": {
+    "description": "Auto imported from components/forDevelopers/joinUs.vue"
+  },
+  "ForDevelopersOurTeam": {
+    "description": "Auto imported from components/forDevelopers/ourTeam.vue"
+  },
+  "HomeAboutHome": {
+    "description": "Auto imported from components/home/aboutHome.vue"
+  },
+  "HomeAsideSocialMedia": {
+    "description": "Auto imported from components/home/AsideSocialMedia.vue"
+  },
+  "HomeBlogsHome": {
+    "description": "Auto imported from components/home/blogsHome.vue"
+  },
+  "HomeContent": {
+    "description": "Auto imported from components/home/content.vue"
+  },
+  "HomeLandingHome": {
+    "description": "Auto imported from components/home/landingHome.vue"
+  },
+  "HomeOurServieceHome": {
+    "description": "Auto imported from components/home/ourServieceHome.vue"
+  },
+  "HomeStaticsOfCompany": {
+    "description": "Auto imported from components/home/staticsOfCompany.vue"
+  },
+  "HomeWhyInovola": {
+    "description": "Auto imported from components/home/whyInovola.vue"
+  },
+  "HrServiceContent": {
+    "description": "Auto imported from components/hrService/content.vue"
+  },
+  "HrServiceOtherServices": {
+    "description": "Auto imported from components/hrService/otherServices.vue"
+  },
+  "HrServiceOurProcess": {
+    "description": "Auto imported from components/hrService/ourProcess.vue"
+  },
+  "HrServiceScalingSimple": {
+    "description": "Auto imported from components/hrService/scalingSimple.vue"
+  },
+  "HrServiceHeader": {
+    "description": "Auto imported from components/hrService/serviceHeader.vue"
+  },
+  "RemoteJobsApplyNow": {
+    "description": "Auto imported from components/remoteJobs/applyNow.vue"
+  },
+  "RemoteJobsContent": {
+    "description": "Auto imported from components/remoteJobs/content.vue"
+  },
+  "RemoteJobsGlassdoorSection": {
+    "description": "Auto imported from components/remoteJobs/glassdoorSection.vue"
+  },
+  "RemoteJobsJobDetails": {
+    "description": "Auto imported from components/remoteJobs/jobDetails.vue"
+  },
+  "RemoteJobs": {
+    "description": "Auto imported from components/remoteJobs/jobs.vue"
+  },
+  "RemoteJobsSocialMediaSharing": {
+    "description": "Auto imported from components/remoteJobs/socialMediaSharing.vue"
+  },
+  "RemoteJobsStaticJobDescription": {
+    "description": "Auto imported from components/remoteJobs/staticJobDescription.vue"
+  },
+  "ServciesProcessCard": {
+    "description": "Auto imported from components/servcies/processCard.vue"
+  },
+  "ServciesStory": {
+    "description": "Auto imported from components/servcies/story.vue"
+  },
+  "SharedAppSidebar": {
+    "description": "Auto imported from components/shared/AppSidebar.vue"
+  },
+  "SharedBlogsSkeleton": {
+    "description": "Auto imported from components/shared/blogsSkeleton.vue"
+  },
+  "SharedFooter": {
+    "description": "Auto imported from components/shared/Footer.vue"
+  },
+  "SharedGeneralSkeleton": {
+    "description": "Auto imported from components/shared/generalSkeleton.vue"
+  },
+  "SharedHeader": {
+    "description": "Auto imported from components/shared/Header.vue"
+  },
+  "SharedNewsLetters": {
+    "description": "Auto imported from components/shared/NewsLetters.vue"
+  },
+  "SharedSingleSkeleton": {
+    "description": "Auto imported from components/shared/singleSkeleton.vue"
+  },
+  "SharedSlider": {
+    "description": "Auto imported from components/shared/Slider.vue"
+  },
+  "SharedSocialMediaSharing": {
+    "description": "Auto imported from components/shared/socialMediaSharing.vue"
+  },
+  "SharedSuccessFailMessage": {
+    "description": "Auto imported from components/shared/SuccessFailMessage.vue"
+  },
+  "SharedViewMoreButton": {
+    "description": "Auto imported from components/shared/ViewMoreButton.vue"
+  },
+  "SuccessStoryPageContent": {
+    "description": "Auto imported from components/successStoryPage/content.vue"
+  },
+  "SuccessStoryPageCustomerReview": {
+    "description": "Auto imported from components/successStoryPage/customerReview.vue"
+  },
+  "SuccessStoryPageHeading": {
+    "description": "Auto imported from components/successStoryPage/heading.vue"
+  },
+  "SuccessStoryPageSocialMediaSharing": {
+    "description": "Auto imported from components/successStoryPage/socialMediaSharing.vue"
+  },
+  "SucessStoriesContent": {
+    "description": "Auto imported from components/sucessStories/content.vue"
+  },
+  "SucessStoriesSuccess": {
+    "description": "Auto imported from components/sucessStories/storiesSuccess.vue"
+  },
+  "SucessStoriesSuccessStoriesHeader": {
+    "description": "Auto imported from components/sucessStories/successStoriesHeader.vue"
+  }
+}

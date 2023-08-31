@@ -124,7 +124,7 @@ export default {
     async refresh () {
       const pages = getMatchedComponentsInstances(this.$route)
 
-      if (!pages.length ) {
+      if (!pages.length || pages.every(item => item === undefined)) {
         return
       }
       this.$loading.start()

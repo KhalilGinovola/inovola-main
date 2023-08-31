@@ -17,6 +17,7 @@
           class="font-normal text-lg leading-7 text-text-17 max-w-[385px] mx-auto mb-8"
         >
           {{ $t("shared.notFoundDesc") }}
+          {{ error }}
         </p>
       </div>
       <div v-else>

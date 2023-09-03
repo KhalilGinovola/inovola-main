@@ -63,20 +63,14 @@
     "_name": "_2c96799e"
   },
   {
+    "name": "jobs___en___default",
     "path": "/jobs",
     "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs.vue",
     "chunkName": "pages/jobs",
     "children": [
       {
-        "name": "jobs___en___default",
-        "path": "",
-        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\index.vue",
-        "chunkName": "pages/jobs/index",
-        "_name": "_985d39a0"
-      },
-      {
         "name": "jobs-slug___en___default",
-        "path": ":slug",
+        "path": ":slug?",
         "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\_slug.vue",
         "chunkName": "pages/jobs/_slug",
         "_name": "_9bca7c30"
@@ -163,20 +157,14 @@
     "_name": "_2c96799e"
   },
   {
+    "name": "jobs___ar",
     "path": "/ar/jobs",
     "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs.vue",
     "chunkName": "pages/jobs",
     "children": [
       {
-        "name": "jobs___ar",
-        "path": "",
-        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\index.vue",
-        "chunkName": "pages/jobs/index",
-        "_name": "_985d39a0"
-      },
-      {
         "name": "jobs-slug___ar",
-        "path": ":slug",
+        "path": ":slug?",
         "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\_slug.vue",
         "chunkName": "pages/jobs/_slug",
         "_name": "_9bca7c30"
@@ -263,20 +251,14 @@
     "_name": "_2c96799e"
   },
   {
+    "name": "jobs___en",
     "path": "/en/jobs",
     "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs.vue",
     "chunkName": "pages/jobs",
     "children": [
       {
-        "name": "jobs___en",
-        "path": "",
-        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\index.vue",
-        "chunkName": "pages/jobs/index",
-        "_name": "_985d39a0"
-      },
-      {
         "name": "jobs-slug___en",
-        "path": ":slug",
+        "path": ":slug?",
         "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\_slug.vue",
         "chunkName": "pages/jobs/_slug",
         "_name": "_9bca7c30"

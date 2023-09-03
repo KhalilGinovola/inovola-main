@@ -128,7 +128,8 @@ export default {
         return
       }
       this.$loading.start()
-console.log(pages, 'pages');
+      console.log(pages, 'pages');
+
       const promises = pages.map((page) => {
         const p = []
 

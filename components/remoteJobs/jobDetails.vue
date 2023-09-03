@@ -25,7 +25,7 @@
             class="w-full flex justify-between flex-wrap items-center mt-0 pt-0"
           >
             <div
-              v-if="jobs[jobId].skills && jobs[jobId].skills.length > 0"
+              v-if="jobs[jobId]?.skills && jobs[jobId]?.skills.length > 0"
               class="flex border border-solid border-border rounded-lg mb-1 mt-0 pt-0"
             >
               <div
@@ -47,7 +47,7 @@
               </div>
             </div>
 
-            <div v-if="jobs[jobId].labels && jobs[jobId].labels.length > 0">
+            <div v-if="jobs[jobId]?.labels && jobs[jobId]?.labels.length > 0">
               <div
                 v-for="label in jobs[jobId]?.labels"
                 :key="label.id"

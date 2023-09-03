@@ -13,7 +13,6 @@ const _a60d4452 = () => interopDefault(import('..\\pages\\for-companies\\index.v
 const _8845228e = () => interopDefault(import('..\\pages\\for-developers\\index.vue' /* webpackChunkName: "pages/for-developers/index" */))
 const _2c96799e = () => interopDefault(import('..\\pages\\hr-as-service\\index.vue' /* webpackChunkName: "pages/hr-as-service/index" */))
 const _4c9bf912 = () => interopDefault(import('..\\pages\\jobs.vue' /* webpackChunkName: "pages/jobs" */))
-const _985d39a0 = () => interopDefault(import('..\\pages\\jobs\\index.vue' /* webpackChunkName: "pages/jobs/index" */))
 const _9bca7c30 = () => interopDefault(import('..\\pages\\jobs\\_slug.vue' /* webpackChunkName: "pages/jobs/_slug" */))
 const _3dd417f1 = () => interopDefault(import('..\\pages\\remote-jobs.vue' /* webpackChunkName: "pages/remote-jobs" */))
 const _54019b71 = () => interopDefault(import('..\\pages\\remote-jobs\\index.vue' /* webpackChunkName: "pages/remote-jobs/index" */))
@@ -72,12 +71,9 @@ export const routerOptions = {
   }, {
     path: "/jobs",
     component: _4c9bf912,
+    name: "jobs___en___default",
     children: [{
-      path: "",
-      component: _985d39a0,
-      name: "jobs___en___default"
-    }, {
-      path: ":slug",
+      path: ":slug?",
       component: _9bca7c30,
       name: "jobs-slug___en___default"
     }]
@@ -128,12 +124,9 @@ export const routerOptions = {
   }, {
     path: "/ar/jobs",
     component: _4c9bf912,
+    name: "jobs___ar",
     children: [{
-      path: "",
-      component: _985d39a0,
-      name: "jobs___ar"
-    }, {
-      path: ":slug",
+      path: ":slug?",
       component: _9bca7c30,
       name: "jobs-slug___ar"
     }]
@@ -184,12 +177,9 @@ export const routerOptions = {
   }, {
     path: "/en/jobs",
     component: _4c9bf912,
+    name: "jobs___en",
     children: [{
-      path: "",
-      component: _985d39a0,
-      name: "jobs___en"
-    }, {
-      path: ":slug",
+      path: ":slug?",
       component: _9bca7c30,
       name: "jobs-slug___en"
     }]

@@ -184,8 +184,8 @@ console.log(route, 'route');
   return {
     ...route,
     meta: getMatchedComponents(route).map((Component, index) => {
-// console.log(Component, 'Component');
-      return { ...Component.options.meta, ...(route.matched[index] || {}).meta }
+console.log(Component.options.meta, 'Component');
+      return { ...Component?.options?.meta, ...(route.matched[index] || {}).meta }
     })
   }
 }

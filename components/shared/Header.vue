@@ -52,6 +52,12 @@
             >
               {{ $t("footer.remoteJobs") }}
             </NuxtLink>
+            <NuxtLink
+              :to="localePath('/jobs')"
+              class="me-4 no-underline font-medium text-start text-sm text-text-4 mb-0 hidden xl:block"
+            >
+              {{ $t("footer.remoteJobs") }}
+            </NuxtLink>
           </div>
 
           <div class="flex flex-wrap items-center">

@@ -23,7 +23,9 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/logo.svg" }],
   },
-
+  // router: {
+  //   middleware: ["routerToDetails"],
+  // },
   css: ["~/assets/css/common.scss"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

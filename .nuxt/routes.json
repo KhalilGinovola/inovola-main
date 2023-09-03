@@ -63,6 +63,28 @@
     "_name": "_2c96799e"
   },
   {
+    "path": "/jobs",
+    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs.vue",
+    "chunkName": "pages/jobs",
+    "children": [
+      {
+        "name": "jobs___en___default",
+        "path": "",
+        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\index.vue",
+        "chunkName": "pages/jobs/index",
+        "_name": "_985d39a0"
+      },
+      {
+        "name": "jobs-slug___en___default",
+        "path": ":slug",
+        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\_slug.vue",
+        "chunkName": "pages/jobs/_slug",
+        "_name": "_9bca7c30"
+      }
+    ],
+    "_name": "_4c9bf912"
+  },
+  {
     "path": "/remote-jobs",
     "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\remote-jobs.vue",
     "chunkName": "pages/remote-jobs",
@@ -141,6 +163,28 @@
     "_name": "_2c96799e"
   },
   {
+    "path": "/ar/jobs",
+    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs.vue",
+    "chunkName": "pages/jobs",
+    "children": [
+      {
+        "name": "jobs___ar",
+        "path": "",
+        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\index.vue",
+        "chunkName": "pages/jobs/index",
+        "_name": "_985d39a0"
+      },
+      {
+        "name": "jobs-slug___ar",
+        "path": ":slug",
+        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\_slug.vue",
+        "chunkName": "pages/jobs/_slug",
+        "_name": "_9bca7c30"
+      }
+    ],
+    "_name": "_4c9bf912"
+  },
+  {
     "path": "/ar/remote-jobs",
     "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\remote-jobs.vue",
     "chunkName": "pages/remote-jobs",
@@ -217,6 +261,28 @@
     "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\hr-as-service\\\\index.vue",
     "chunkName": "pages/hr-as-service/index",
     "_name": "_2c96799e"
+  },
+  {
+    "path": "/en/jobs",
+    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs.vue",
+    "chunkName": "pages/jobs",
+    "children": [
+      {
+        "name": "jobs___en",
+        "path": "",
+        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\index.vue",
+        "chunkName": "pages/jobs/index",
+        "_name": "_985d39a0"
+      },
+      {
+        "name": "jobs-slug___en",
+        "path": ":slug",
+        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\_slug.vue",
+        "chunkName": "pages/jobs/_slug",
+        "_name": "_9bca7c30"
+      }
+    ],
+    "_name": "_4c9bf912"
   },
   {
     "path": "/en/remote-jobs",

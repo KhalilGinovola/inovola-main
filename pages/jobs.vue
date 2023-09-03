@@ -14,7 +14,7 @@
       v-if="mobileSize && $route.params.slug"
       class="w-screen py-8 bg-offWhite"
     >
-      <nuxt-link :to="localePath('/remote-jobs/')" class="no-underline">
+      <nuxt-link :to="localePath('/jobs')" class="no-underline">
         <div
           class="cursor-pointer flex items-center text-text-6 leading-[1.25rem] text-[0.875rem] font-medium ms-5 mt-0 max-w-[664px]"
         >
@@ -45,7 +45,7 @@ import Jobs from "~/components/remoteJobs/jobs.vue"
 import { GET_JOBS } from "~/utils/storeActions"
 
 export default {
-  name: "RemoteJobs",
+  name: "JobsView",
   components: {
     Jobs,
   },
@@ -93,12 +93,15 @@ export default {
   async mounted() {
     await this.onResize()
     await this.resize()
-    // this.redirect()
+    this.redirect()
   },
   methods: {
     redirect() {
-      if (this.$router.fullPath === "/remote-jobs/") {
-        this.$router.push("/remote-jobs" + this.jobs[0].id)
+      if (
+        this.$route.fullPath === "/jobs" ||
+        this.$route.fullPath === "/jobs/"
+      ) {
+        this.$router.push("/jobs/" + this.jobs[0].id)
       }
     },
     onResize() {

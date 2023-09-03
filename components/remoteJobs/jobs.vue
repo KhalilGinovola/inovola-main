@@ -27,7 +27,7 @@
         <nuxt-link
           v-for="job in filteredJobs"
           :key="job.id"
-          :to="localePath(`/remote-jobs/${job.id}`)"
+          :to="localePath(`/jobs/${job.id}`)"
           class="no-underline"
         >
           <div
@@ -103,7 +103,7 @@
 import { mapState } from "vuex"
 
 export default {
-  name: "JobsContainer",
+  name: "JobsContainerComponent",
   data() {
     return {
       searchText: "",

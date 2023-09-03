@@ -6,13 +6,13 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<BlogsBlog>` | `<blogs-blog>` (components/blogs/blog.vue)
+- `<BlogsContent>` | `<blogs-content>` (components/blogs/content.vue)
+- `<BlogsFirstBlog>` | `<blogs-first-blog>` (components/blogs/FirstBlog.vue)
 - `<BlogPageContent>` | `<blog-page-content>` (components/blogPage/content.vue)
 - `<BlogPageHeading>` | `<blog-page-heading>` (components/blogPage/heading.vue)
 - `<BlogPageRelatedBlogs>` | `<blog-page-related-blogs>` (components/blogPage/relatedBlogs.vue)
 - `<BlogPageSocialMediaSharing>` | `<blog-page-social-media-sharing>` (components/blogPage/socialMediaSharing.vue)
-- `<BlogsBlog>` | `<blogs-blog>` (components/blogs/blog.vue)
-- `<BlogsContent>` | `<blogs-content>` (components/blogs/content.vue)
-- `<BlogsFirstBlog>` | `<blogs-first-blog>` (components/blogs/FirstBlog.vue)
 - `<ContactUsCalender>` | `<contact-us-calender>` (components/contactUs/calender.vue)
 - `<ContactUsContent>` | `<contact-us-content>` (components/contactUs/content.vue)
 - `<ContactUsEgyptInfo>` | `<contact-us-egypt-info>` (components/contactUs/egyptInfo.vue)

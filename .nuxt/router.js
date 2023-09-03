@@ -12,6 +12,9 @@ const _1b344c28 = () => interopDefault(import('..\\pages\\digital-transformation
 const _a60d4452 = () => interopDefault(import('..\\pages\\for-companies\\index.vue' /* webpackChunkName: "pages/for-companies/index" */))
 const _8845228e = () => interopDefault(import('..\\pages\\for-developers\\index.vue' /* webpackChunkName: "pages/for-developers/index" */))
 const _2c96799e = () => interopDefault(import('..\\pages\\hr-as-service\\index.vue' /* webpackChunkName: "pages/hr-as-service/index" */))
+const _4c9bf912 = () => interopDefault(import('..\\pages\\jobs.vue' /* webpackChunkName: "pages/jobs" */))
+const _985d39a0 = () => interopDefault(import('..\\pages\\jobs\\index.vue' /* webpackChunkName: "pages/jobs/index" */))
+const _9bca7c30 = () => interopDefault(import('..\\pages\\jobs\\_slug.vue' /* webpackChunkName: "pages/jobs/_slug" */))
 const _3dd417f1 = () => interopDefault(import('..\\pages\\remote-jobs.vue' /* webpackChunkName: "pages/remote-jobs" */))
 const _54019b71 = () => interopDefault(import('..\\pages\\remote-jobs\\index.vue' /* webpackChunkName: "pages/remote-jobs/index" */))
 const _524afa29 = () => interopDefault(import('..\\pages\\remote-jobs\\_slug.vue' /* webpackChunkName: "pages/remote-jobs/_slug" */))
@@ -67,6 +70,18 @@ export const routerOptions = {
     component: _2c96799e,
     name: "hr-as-service___en___default"
   }, {
+    path: "/jobs",
+    component: _4c9bf912,
+    children: [{
+      path: "",
+      component: _985d39a0,
+      name: "jobs___en___default"
+    }, {
+      path: ":slug",
+      component: _9bca7c30,
+      name: "jobs-slug___en___default"
+    }]
+  }, {
     path: "/remote-jobs",
     component: _3dd417f1,
     children: [{
@@ -111,6 +126,18 @@ export const routerOptions = {
     component: _2c96799e,
     name: "hr-as-service___ar"
   }, {
+    path: "/ar/jobs",
+    component: _4c9bf912,
+    children: [{
+      path: "",
+      component: _985d39a0,
+      name: "jobs___ar"
+    }, {
+      path: ":slug",
+      component: _9bca7c30,
+      name: "jobs-slug___ar"
+    }]
+  }, {
     path: "/ar/remote-jobs",
     component: _3dd417f1,
     children: [{
@@ -154,6 +181,18 @@ export const routerOptions = {
     path: "/en/hr-as-service",
     component: _2c96799e,
     name: "hr-as-service___en"
+  }, {
+    path: "/en/jobs",
+    component: _4c9bf912,
+    children: [{
+      path: "",
+      component: _985d39a0,
+      name: "jobs___en"
+    }, {
+      path: ":slug",
+      component: _9bca7c30,
+      name: "jobs-slug___en"
+    }]
   }, {
     path: "/en/remote-jobs",
     component: _3dd417f1,

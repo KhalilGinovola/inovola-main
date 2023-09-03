@@ -124,11 +124,10 @@ export default {
     async refresh () {
       const pages = getMatchedComponentsInstances(this.$route)
 
-      if (!pages.length || pages.every(item => item === undefined)) {
+      if (!pages.length) {
         return
       }
       this.$loading.start()
-      console.log(pages, 'pages');
 
       const promises = pages.map((page) => {
         const p = []

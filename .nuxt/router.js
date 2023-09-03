@@ -4,11 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _becf7c74 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 const _17a93e5d = () => interopDefault(import('..\\pages\\blogs\\index.vue' /* webpackChunkName: "pages/blogs/index" */))
 const _170e1bfb = () => interopDefault(import('..\\pages\\contact-us\\index.vue' /* webpackChunkName: "pages/contact-us/index" */))
 const _0f6a05fc = () => interopDefault(import('..\\pages\\dev-team-as-service\\index.vue' /* webpackChunkName: "pages/dev-team-as-service/index" */))
 const _1b344c28 = () => interopDefault(import('..\\pages\\digital-transformation\\index.vue' /* webpackChunkName: "pages/digital-transformation/index" */))
+const _becf7c74 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 const _a60d4452 = () => interopDefault(import('..\\pages\\for-companies\\index.vue' /* webpackChunkName: "pages/for-companies/index" */))
 const _8845228e = () => interopDefault(import('..\\pages\\for-developers\\index.vue' /* webpackChunkName: "pages/for-developers/index" */))
 const _2c96799e = () => interopDefault(import('..\\pages\\hr-as-service\\index.vue' /* webpackChunkName: "pages/hr-as-service/index" */))
@@ -33,10 +33,6 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/ar",
-    component: _becf7c74,
-    name: "index___ar"
-  }, {
     path: "/blogs",
     component: _17a93e5d,
     name: "blogs___en___default"
@@ -94,59 +90,6 @@ export const routerOptions = {
     component: _1d4dbae5,
     name: "success-stories___en___default"
   }, {
-    path: "/ar/blogs",
-    component: _17a93e5d,
-    name: "blogs___ar"
-  }, {
-    path: "/ar/contact-us",
-    component: _170e1bfb,
-    name: "contact-us___ar"
-  }, {
-    path: "/ar/dev-team-as-service",
-    component: _0f6a05fc,
-    name: "dev-team-as-service___ar"
-  }, {
-    path: "/ar/digital-transformation",
-    component: _1b344c28,
-    name: "digital-transformation___ar"
-  }, {
-    path: "/ar/for-companies",
-    component: _a60d4452,
-    name: "for-companies___ar"
-  }, {
-    path: "/ar/for-developers",
-    component: _8845228e,
-    name: "for-developers___ar"
-  }, {
-    path: "/ar/hr-as-service",
-    component: _2c96799e,
-    name: "hr-as-service___ar"
-  }, {
-    path: "/ar/jobs",
-    component: _4c9bf912,
-    name: "jobs___ar",
-    children: [{
-      path: ":slug?",
-      component: _9bca7c30,
-      name: "jobs-slug___ar"
-    }]
-  }, {
-    path: "/ar/remote-jobs",
-    component: _3dd417f1,
-    children: [{
-      path: "",
-      component: _54019b71,
-      name: "remote-jobs___ar"
-    }, {
-      path: ":slug",
-      component: _524afa29,
-      name: "remote-jobs-slug___ar"
-    }]
-  }, {
-    path: "/ar/success-stories",
-    component: _1d4dbae5,
-    name: "success-stories___ar"
-  }, {
     path: "/en/blogs",
     component: _17a93e5d,
     name: "blogs___en"
@@ -199,14 +142,6 @@ export const routerOptions = {
     path: "/en/success-stories",
     component: _1d4dbae5,
     name: "success-stories___en"
-  }, {
-    path: "/ar/blogs/:id",
-    component: _940efe46,
-    name: "blogs-id___ar"
-  }, {
-    path: "/ar/success-stories/:id",
-    component: _17d49955,
-    name: "success-stories-id___ar"
   }, {
     path: "/en/blogs/:id",
     component: _940efe46,

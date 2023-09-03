@@ -23,9 +23,6 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/logo.svg" }],
   },
-  // router: {
-  //   middleware: ["routerToDetails"],
-  // },
   css: ["~/assets/css/common.scss"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -52,7 +49,7 @@ export default {
       "@nuxtjs/moment",
       {
         defaultLocale: "en-nz",
-        locales: ["ar", "en-nz"],
+        locales: ["en-nz"],
       },
     ],
   ],
@@ -93,10 +90,7 @@ export default {
         fallbackLocale: "en",
         lazy: true,
         langDir: "locales/",
-        locales: [
-          { code: "en", iso: "en-US", file: "en.json", dir: "ltr" },
-          { code: "ar", iso: "ar-EG", file: "ar.json", dir: "rtl" },
-        ],
+        locales: [{ code: "en", iso: "en-US", file: "en.json", dir: "ltr" }],
         detectBrowserLanguage: false,
       },
     ],

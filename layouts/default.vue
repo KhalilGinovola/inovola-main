@@ -23,9 +23,6 @@ export default {
     AppFooter,
     AppHeader,
   },
-  async fetch() {
-    await this.$store.dispatch("jobs/" + GET_JOBS)
-  },
   head() {
     return {
       meta: [
@@ -60,13 +57,15 @@ export default {
       )
     },
   },
+  mounted() {
+    this.GET_SEO()
+    this.$store.dispatch("jobs/" + GET_JOBS)
+  },
   created() {
     if (process.client) {
       // const lang = localStorage?.getItem("lang") || this?.$i18n?.locale || "en"
       handleLanguageChange(this, "en")
     }
-
-    this.GET_SEO()
   },
   methods: {
     ...mapActions("common", [GET_SEO]),

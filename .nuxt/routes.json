@@ -1,12 +1,5 @@
 [
   {
-    "name": "index___ar",
-    "path": "/ar",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_becf7c74"
-  },
-  {
     "name": "blogs___en___default",
     "path": "/blogs",
     "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\blogs\\\\index.vue",
@@ -108,100 +101,6 @@
     "_name": "_1d4dbae5"
   },
   {
-    "name": "blogs___ar",
-    "path": "/ar/blogs",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\blogs\\\\index.vue",
-    "chunkName": "pages/blogs/index",
-    "_name": "_17a93e5d"
-  },
-  {
-    "name": "contact-us___ar",
-    "path": "/ar/contact-us",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\contact-us\\\\index.vue",
-    "chunkName": "pages/contact-us/index",
-    "_name": "_170e1bfb"
-  },
-  {
-    "name": "dev-team-as-service___ar",
-    "path": "/ar/dev-team-as-service",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\dev-team-as-service\\\\index.vue",
-    "chunkName": "pages/dev-team-as-service/index",
-    "_name": "_0f6a05fc"
-  },
-  {
-    "name": "digital-transformation___ar",
-    "path": "/ar/digital-transformation",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\digital-transformation\\\\index.vue",
-    "chunkName": "pages/digital-transformation/index",
-    "_name": "_1b344c28"
-  },
-  {
-    "name": "for-companies___ar",
-    "path": "/ar/for-companies",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\for-companies\\\\index.vue",
-    "chunkName": "pages/for-companies/index",
-    "_name": "_a60d4452"
-  },
-  {
-    "name": "for-developers___ar",
-    "path": "/ar/for-developers",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\for-developers\\\\index.vue",
-    "chunkName": "pages/for-developers/index",
-    "_name": "_8845228e"
-  },
-  {
-    "name": "hr-as-service___ar",
-    "path": "/ar/hr-as-service",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\hr-as-service\\\\index.vue",
-    "chunkName": "pages/hr-as-service/index",
-    "_name": "_2c96799e"
-  },
-  {
-    "name": "jobs___ar",
-    "path": "/ar/jobs",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs.vue",
-    "chunkName": "pages/jobs",
-    "children": [
-      {
-        "name": "jobs-slug___ar",
-        "path": ":slug?",
-        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\jobs\\\\_slug.vue",
-        "chunkName": "pages/jobs/_slug",
-        "_name": "_9bca7c30"
-      }
-    ],
-    "_name": "_4c9bf912"
-  },
-  {
-    "path": "/ar/remote-jobs",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\remote-jobs.vue",
-    "chunkName": "pages/remote-jobs",
-    "children": [
-      {
-        "name": "remote-jobs___ar",
-        "path": "",
-        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\remote-jobs\\\\index.vue",
-        "chunkName": "pages/remote-jobs/index",
-        "_name": "_54019b71"
-      },
-      {
-        "name": "remote-jobs-slug___ar",
-        "path": ":slug",
-        "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\remote-jobs\\\\_slug.vue",
-        "chunkName": "pages/remote-jobs/_slug",
-        "_name": "_524afa29"
-      }
-    ],
-    "_name": "_3dd417f1"
-  },
-  {
-    "name": "success-stories___ar",
-    "path": "/ar/success-stories",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\success-stories\\\\index.vue",
-    "chunkName": "pages/success-stories/index",
-    "_name": "_1d4dbae5"
-  },
-  {
     "name": "blogs___en",
     "path": "/en/blogs",
     "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\blogs\\\\index.vue",
@@ -294,20 +193,6 @@
     "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\success-stories\\\\index.vue",
     "chunkName": "pages/success-stories/index",
     "_name": "_1d4dbae5"
-  },
-  {
-    "name": "blogs-id___ar",
-    "path": "/ar/blogs/:id",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\blogs\\\\_id\\\\index.vue",
-    "chunkName": "pages/blogs/_id/index",
-    "_name": "_940efe46"
-  },
-  {
-    "name": "success-stories-id___ar",
-    "path": "/ar/success-stories/:id",
-    "component": "D:\\\\workspace\\\\NUXT\\\\inov\\\\inovola\\\\pages\\\\success-stories\\\\_id\\\\index.vue",
-    "chunkName": "pages/success-stories/_id/index",
-    "_name": "_17d49955"
   },
   {
     "name": "blogs-id___en",

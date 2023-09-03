@@ -177,15 +177,13 @@ export async function getRouteData (route) {
   if (!route) {
     return
   }
-console.log(route, 'route');
   // Make sure the components are resolved (code-splitting)
   await resolveRouteComponents(route)
   // Send back a copy of route with meta based on Component definition
   return {
     ...route,
     meta: getMatchedComponents(route).map((Component, index) => {
-console.log(Component.options.meta, 'Component');
-      return { ...Component?.options?.meta, ...(route.matched[index] || {}).meta }
+      return { ...Component.options.meta, ...(route.matched[index] || {}).meta }
     })
   }
 }

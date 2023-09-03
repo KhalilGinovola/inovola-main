@@ -12,10 +12,7 @@ import { mapActions, mapState } from "vuex"
 import { handleLanguageChange } from "@/utils/langaugeChanger"
 import SuccessFailMessage from "~/components/shared/SuccessFailMessage.vue"
 import AppHeader from "~/components/shared/Header.vue"
-import {
-  GET_SEO,
-  // GET_JOBS
-} from "~/utils/storeActions"
+import { GET_SEO, GET_JOBS } from "~/utils/storeActions"
 
 export default {
   name: "OnlyHeaderLayout",
@@ -23,9 +20,6 @@ export default {
     SuccessFailMessage,
     AppHeader,
   },
-  // async fetch() {
-  //   await this.$store.dispatch("jobs/" + GET_JOBS)
-  // },
   head() {
     return {
       bodyAttrs: {
@@ -64,13 +58,15 @@ export default {
       )
     },
   },
+  mounted() {
+    this.GET_SEO()
+    this.$store.dispatch("jobs/" + GET_JOBS)
+  },
   created() {
     if (process.client) {
       // const lang = localStorage?.getItem("lang") || this?.$i18n?.locale || "en"
       handleLanguageChange(this, "en")
     }
-
-    this.GET_SEO()
   },
   methods: {
     ...mapActions("common", [GET_SEO]),

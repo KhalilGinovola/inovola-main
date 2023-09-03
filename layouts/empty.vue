@@ -55,13 +55,14 @@ export default {
       )
     },
   },
+  mounted() {
+    this.GET_SEO()
+  },
   created() {
     if (process.client) {
       // const lang = localStorage?.getItem("lang") || this?.$i18n?.locale || "en"
       handleLanguageChange(this, "en")
     }
-
-    this.GET_SEO()
   },
   methods: {
     ...mapActions("common", [GET_SEO]),
